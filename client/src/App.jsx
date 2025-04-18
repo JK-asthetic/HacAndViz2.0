@@ -8,6 +8,10 @@ import Home from "@/pages/Home";
 import Register from "@/pages/Register";
 import AdminDashboard from "@/pages/Admin";
 import SignupPage from "@/pages/Signup";
+import LeaderboardPage from "./pages/leaderboard";
+import JudgeLogin from "./pages/Judge_login";
+import JudgeDashboard from "./pages/Judges/dashboard";
+import JudgeScoring from "./pages/Judges/scores";
 
 function Router() {
   return (
@@ -16,6 +20,10 @@ function Router() {
       <Route path="/register" component={Register} />
       <Route path="/admin" component={AdminDashboard} />
       <Route path="/signup" component={SignupPage} />
+      <Route path="/judge-login" component={JudgeLogin} />
+      <Route path="judge/dashboard" component={JudgeDashboard} />
+      <Route path="/judge/score" component={JudgeScoring} />
+      <Route path="/leaderboard" component={LeaderboardPage} />
       <Route component={NotFound} />
     </Switch>
   );
