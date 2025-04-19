@@ -30,11 +30,11 @@ const roundCriteria = {
     { id: "theme_relevance", label: "Relevance to Theme", maxScore: 5 },
   ],
   3: [
-    { id: "data_dashboard", label: "Data Dashboard", maxScore: 10 },
+    { id: "data_dashboard", label: "Data Dashboard", maxScore: 20 },
     {
       id: "presentation_documentation",
       label: "Presentation and Documentation",
-      maxScore: 10,
+      maxScore: 20,
     },
   ],
 };

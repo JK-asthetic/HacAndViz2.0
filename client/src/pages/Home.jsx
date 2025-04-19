@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Themes from "@/components/Themes";
 import Timeline from "@/components/Timeline";
-// import Legacy from "@/components/Legacy";
 import Faq from "@/components/Faq";
 import Registration from "@/components/Registration";
 import Organizers from "@/components/Organizers";
@@ -18,7 +17,6 @@ export default function Home() {
       <About />
       <Themes />
       <Timeline />
-      {/* <Legacy /> */}
       <Faq />
       <Registration />
       <Organizers />

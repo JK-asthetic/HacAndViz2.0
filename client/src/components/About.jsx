@@ -286,12 +286,11 @@ export default function About() {
                   </div>
                   <div>
                     <h5 className="font-medium text-lg">
-                      Initial Round: 24-Hour Coding Challenge
+                      Round 1: Initial Assessment
                     </h5>
                     <p className="text-gray-600">
-                      Teams will have 24 hours to develop a functional prototype
-                      based on the chosen problem statement. Participants will
-                      have access to mentors throughout this period.
+                      <span className="font-medium">Timing: 3:00 PM to 6:30 PM (April 19)</span><br />
+                      Teams will be evaluated on reason of theme selection, problem statement chosen, relevance to theme, and their tentative solution approach.
                     </p>
                   </div>
                 </div>
@@ -302,11 +301,11 @@ export default function About() {
                   </div>
                   <div>
                     <h5 className="font-medium text-lg">
-                      Project Presentation
+                      Round 2: Technical Development
                     </h5>
                     <p className="text-gray-600">
-                      Teams will pitch their solutions to a panel of judges
-                      including industry experts and faculty members.{" "}
+                      <span className="font-medium">Timing: 2:30 AM to 6:30 AM (April 20)</span><br />
+                      Teams will be evaluated based on their tech stack selection and implementation, as well as the innovation demonstrated in their solutions.
                     </p>
                   </div>
                 </div>
@@ -317,12 +316,11 @@ export default function About() {
                   </div>
                   <div>
                     <h5 className="font-medium text-lg">
-                      Final Round: Data Visualization Dashboard
+                      Round 3: Dashboard Presentation
                     </h5>
                     <p className="text-gray-600">
-                      Finalists will create an interactive data visualization
-                      dashboard using Power BI, Tableau, or similar tools to
-                      present insights from their project data.{" "}
+                      <span className="font-medium">Timing: 11:00 AM to 4:00 PM (April 20)</span><br />
+                      The final evaluation will be based solely on teams' data visualization dashboard presentations, showcasing insights from their project data.
                     </p>
                   </div>
                 </div>
